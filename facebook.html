@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>EddVzG by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	</head>
+    <body>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            window.onload = function() {
+              if(navigator.userAgent.match(/iPhone|iPad|Android|iPod/i)) {
+                window.location = "fb://profile/100004446587300";
+                setTimeout(function(){
+                    window.location = "https://www.facebook.com/profile.php?id=100004446587300";
+                }, 50);
+              } else {
+                window.location = "https://www.facebook.com/profile.php?id=100004446587300";
+              }
+            }
+        </script>
+    </body>
+</html>
